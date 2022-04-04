@@ -4,7 +4,7 @@ import android.util.Log
 
 open class Dog: Animal, Movable {
 
-    constructor(name: String, age: Int, hobby: String): super(name, age,hobby) {
+    constructor(name: String, age: Int ): super(name, age) {
     }
 
     override fun say() {
